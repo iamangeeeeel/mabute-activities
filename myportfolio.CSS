@@ -10,4 +10,14 @@ nav li{
     justify-content: space-between;
 }
 
-nav 
+nav ul li{ 
+    display: inline-block;
+    position:relative;
+    justify-content: space-between;
+    margin-left: auto; 
+}
+
+nav a :hover{
+    background-color: bisque;
+    box-shadow: 0 0 10px ;
+}
