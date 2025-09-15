@@ -1,6 +1,13 @@
 *{
-    scroll-behavior: ;
+    scroll-behavior: smooth;
+}
+body{ 
+    background-color: pink;
+}
+nav li{
+    list-style: none;
+    position: relative;
+    justify-content: space-between;
 }
 
-
-body { background-color:pink;)
+nav 
