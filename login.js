@@ -1,6 +1,6 @@
 function checkLogin(){
 let email = document.getElementById("Email").value;
-//email = angel@gmail.com
+//email = iamagel@gmail.com
 
 let pass = document.getElementById("Password").value;
 //pass = 987654321
@@ -8,10 +8,10 @@ let pass = document.getElementById("Password").value;
 let erroEmail = document.getElementById("Email-error");
 
 console.log(email);
-//angel@gmail.com
+//iamangel@gmail.com
 console.log(pass);
 
-if (email === "angel@gmail.com"){
+if (email === "iamangel@gmail.com"){
     console.log: The email you entered is incorrect" + email);
     else{
         console.log("Oppss... Your email is incorrect. Change it now!")
